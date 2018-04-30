@@ -36,4 +36,3 @@ xpack.ml.enabled: false
 xpack.monitoring.exporters:
   default:
     type: ${XPACK_MONITORING_EXPORTER_TYPE:local}
-    host: ${XPACK_MONITORING_EXPORTER_HOST:localhost}
