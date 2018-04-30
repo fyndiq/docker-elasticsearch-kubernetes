@@ -34,5 +34,5 @@ discovery:
 
 xpack.monitoring.exporters:
   default:
-    type: http
+    type: ${XPACK_MONITORING_EXPORTER_TYPE:local}
     host: ${XPACK_MONITORING_EXPORTER_HOST:localhost}
