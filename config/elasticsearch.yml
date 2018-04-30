@@ -33,6 +33,5 @@ discovery:
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
 xpack.monitoring.exporters:
-  elasticsearch-logs:
-    type: http
+  default:
     host: ${XPACK_MONITORING_EXPORTER_HOST:localhost}
