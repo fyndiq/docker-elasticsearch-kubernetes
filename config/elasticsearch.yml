@@ -33,3 +33,7 @@ discovery:
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
 xpack.ml.enabled: false
+xpack.monitoring.exporters:
+  default:
+    type: ${XPACK_MONITORING_EXPORTER_TYPE:local}
+    use_ingest: false
